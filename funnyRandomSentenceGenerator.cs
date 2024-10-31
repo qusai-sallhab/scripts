@@ -13,7 +13,7 @@ public class funnyRandomSentenceGenerator : MonoBehaviour
         string fullSentence="";
         while(counter<7)
         {
-            fullSentence+=words[Random.Range(0,7)];
+            fullSentence+=words[Random.Range(0,7)]+" ";
             counter++;
         }
         Debug.Log(fullSentence);
