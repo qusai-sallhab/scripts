@@ -19,7 +19,7 @@ public class Player
     public void heal(int amount)
     {
         //################# NOTE
-        //this condition is not required but i huess i have to put it as i saw in the lectures 
+        //this condition is not required but i guess i have to put it as i saw in the lectures 
         if(health+amount<=100)
         health+=amount;
         Debug.Log(health);
