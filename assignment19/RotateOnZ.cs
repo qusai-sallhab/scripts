@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace assignment19
+{
 public class RotateOnZ : MonoBehaviour
 {
     int rotationFactor;
@@ -17,4 +19,5 @@ public class RotateOnZ : MonoBehaviour
         this.transform.rotation=Quaternion.Euler(0,0,rotationFactor);
         rotationFactor+=1;
     }
+}
 }

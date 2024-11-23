@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace assignment19
+{
 public class Sculpture : MonoBehaviour
 {
     int rotationFactor;
@@ -19,4 +21,5 @@ public class Sculpture : MonoBehaviour
         rotationFactor+=1;
         
     }
+}
 }
