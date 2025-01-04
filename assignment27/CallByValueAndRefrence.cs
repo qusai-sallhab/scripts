@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace assignment27
+{
 public class CallByValueAndRefrence : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -12,7 +14,7 @@ public class CallByValueAndRefrence : MonoBehaviour
         int c;
 
         Debug.Log("before adding attempt "+a);
-        Add_10_points(a);
+        Add_10_pointsCallByValue(a);
         Debug.Log("after adding attempt "+a);
 
         Debug.Log("before adding attempt "+b);
@@ -24,7 +26,7 @@ public class CallByValueAndRefrence : MonoBehaviour
 
     }
 
-    void Add_10_points(int num)
+    void Add_10_pointsCallByValue(int num)
     {
         num+=10;
     }
@@ -40,4 +42,5 @@ public class CallByValueAndRefrence : MonoBehaviour
     }
 
     
+}
 }
